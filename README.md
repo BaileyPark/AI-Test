@@ -69,6 +69,8 @@ from langchain_community.vectorstores import Chroma # ✅ 최신 버전에서 �
 `# from langchain_community.chat_models import ChatUpstage # ❌ 최신 버전과 호환되지 않음
 from langchain_community.chat_models.solar import SolarChat # ✅ 최신 버전에서 올바른 경로`
 
+---
+
 # PDF 요약 웹사이트 만들기
 
 ## 패키지 설치
@@ -87,3 +89,9 @@ GPU 사용 (CUDA 지원, Python 3.9 이상 ~ 3.10 이하)
 CPU만 사용할 경우 (버전이 맞지 않거나 GPU가 없다면, CPU 버전을 설치)
 
 `pip install faiss-cpu`
+
+---
+
+# 독릭형 질문 챗봇 만들기
+
+`pip install streamlit-chat`
